@@ -21,15 +21,17 @@ body {
     font-size: small;
 }
 .cont {
+    display: flex;
     justify-content: space-around;
     width: 100%;
     font-size: large;
     overflow-y: scroll;
-    text-align: center;
 }
 .col {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
     padding: 0px 20px;
 }
 #footer {
