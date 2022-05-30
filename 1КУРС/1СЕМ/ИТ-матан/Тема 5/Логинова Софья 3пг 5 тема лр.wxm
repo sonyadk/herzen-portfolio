@@ -1,0 +1,102 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.6 ] */
+
+/* [wxMaxima: section start ]
+Флаг «numer»
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: input   start ] */
+3/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+3.0/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+3/4,numer;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+3/4,float;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+float(3/4);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7.0/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7/4,numer;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7/4,float;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+float(7/4);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+if numer#false then numer:false else numer:true;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+3/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+if numer#false then numer:false else numer:true;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+3/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+7/4;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: section start ]
+Приведение конечной десятичной записи числа к рациональной. Флаг «keepfloat»
+
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: comment start ]
+Рассмотрим дробь
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+31/64;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+Вычислим дробь
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+31/64,numer;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: comment start ]
+Приведем десятичную дробт к рациональной форме;
+   [wxMaxima: comment end   ] */
+
+/* [wxMaxima: input   start ] */
+rat(%);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
